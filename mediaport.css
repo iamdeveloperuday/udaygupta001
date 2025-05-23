@@ -239,7 +239,7 @@
     padding: 0 0 10px 0;
   }
   .project {
-    width: 95vw;
+    width: 80vw;
     max-width: 350px;
     margin: 10px 0;
     height: auto;
@@ -250,6 +250,8 @@
     width: 100%;
     height: 120px;
     object-fit: cover;
+    align-items: center;
+    border-radius: 16px;
   }
   .parateat {
     font-size: 18px;

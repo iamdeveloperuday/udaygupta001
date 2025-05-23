@@ -289,7 +289,7 @@ ul li a:hover {
 /***********about seaction***********/
 
 .aboutheader {
-  background-image: url(image/Untitled\ design\ \(1\).png);
+  background-image: url(image/about-back.webp);
   height: 780px;
   width: 100%;
 
@@ -317,7 +317,7 @@ ul li a:hover {
 .myself {
   height: 420px;
   width: 500px;
-  background-color: #5636d3;
+  background-color: #6252f6;
   color: rgb(228, 222, 222);
   border: 2px solid white;
   box-shadow: 0 0 10px 3px #fcfcfc;
@@ -351,7 +351,7 @@ ul li a:hover {
 /***********skilll seaction start*******/
 
 .inner {
-  background-image: url(image/Untitled\ design\ \(2\).png);
+  background-image: url(image/skill-back.webp);
 
   background-size: cover;
   height: 920px;
@@ -480,8 +480,8 @@ ul li a:hover {
 
 
 .projectheader {
-  /** background-image: url(image/Untitled\ design\ \(3\).png);*/
-  background: #585ce2;
+  background-image: url(image/project-back.webp);
+  /**background: #585ce2;*/
   height: 800px;
   width: 100%;
   background-size: cover;
