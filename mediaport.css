@@ -1,0 +1,343 @@
+/*************for nav bar ****************/
+
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 10px 10px;
+    height: 56px;
+  }
+  .navdiv {
+    margin: 0 10px;
+   
+  }
+  .logo a img {
+    width: 5rem;
+    margin-left: 0;
+  }
+  .nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-bar ul li {
+    margin: 0 4px;
+  }
+  .nav-bar ul li a {
+    font-size: 0; /* Hide text */
+    padding: 6px 6px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    min-height: 36px;
+  }
+  .nav-bar ul li a .icon {
+    font-size: 20px;
+    margin: 0;
+    color: #e5e9ff;
+  }
+.nav-bar ul li a .icon:hover{
+  color: black;
+}
+
+}
+
+/******************for home section*************/
+
+@media (max-width: 768px) {
+  /* Home section responsive layout */
+  .hero-sec {
+    height: 90vh;
+    padding: 50px 0 20px 0;
+    background-position: center;
+    margin-top: 56px;
+  
+  }
+  .hero-text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 10px;
+    padding: 0;
+  }
+  .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+    padding-top: 20px;
+  }
+  .text button {
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    width: 90vw;
+    max-width: 320px;
+  
+  }
+  .text p {
+    font-size: 24px;
+    margin-top: 00px;
+    text-align: center;
+  }
+  .animated-text {
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .bio {
+    display: none; /* Hide bio on mobile for cleaner look */
+  }
+  .heroimg {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .heroimg a img {
+    width: 180px;
+    height: 200px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .socialicon {
+    order: 3;
+    margin: 10px 0 0 0;
+    gap: 14px;
+    font-size: 22px;
+  }
+  .hireme {
+    order: 4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 0 0;
+  }
+  .hireme button {
+    margin: 0;
+    font-size: 1rem;
+    padding: 10px 30px;
+    width: 90vw;
+    max-width: 320px;
+  }
+}
+
+/******************for about section*************/
+
+@media (max-width: 768px) {
+  /* About section responsive layout improvements */
+  .aboutheader {
+    height: auto;
+    padding: 0 0 20px 0; /* Remove top padding */
+    background-position: center;
+  }
+  .aboutbio {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 10px;
+    padding: 0;
+    gap: 18px;
+  }
+
+  .about h2{
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  .about-img {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .about-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  .myself {
+    order: 2;
+    width: 95vw;
+    max-width: 350px;
+    height: 340px;
+    margin: 0 auto;
+    font-size: 13px; /* Smaller text */
+    padding: 8px;    /* Less padding */
+    text-align: center;
+    text-align: justify;
+  }
+  .myself h4 {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+  
+  }
+  .myself h6 {
+    font-size: 12px;
+  }
+}
+/*************************for about section end*************/
+
+/*************for skill ****************/
+
+@media screen and (max-width: 990px) {
+    .contaner-skill {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contaner-skill {
+        grid-template-columns: 1fr;
+
+    }
+
+  /* Responsive background color for skill section */
+  .inner {
+    background: #585ce2 !important;
+    height: auto !important;
+    min-height: 100vh;
+  }
+
+}
+
+
+/***************project section***************/
+
+@media (max-width: 768px) {
+  /* Project section responsive layout */
+  .projectheader {
+    height: auto;
+    min-height: 100vh;
+    background-size: cover;
+    padding-bottom: 30px;
+  }
+  .projectcontaner {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+  .projectitem {
+    height: auto;
+    min-height: 60vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 10px 0;
+  }
+  .project {
+    width: 95vw;
+    max-width: 350px;
+    margin: 10px 0;
+    height: auto;
+    min-height: 220px;
+    flex-wrap: wrap;
+  }
+  .projectimg img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+  .parateat {
+    font-size: 18px;
+    width: 100%;
+  }
+  .probtn button {
+    width: 90vw;
+    max-width: 200px;
+  }
+}
+
+/*****contact***/
+
+@media (max-width: 768px) {
+  /* Contact section responsive layout */
+  .contactheader {
+    width: 100%;
+    padding: 0;
+  }
+  .details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .information {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 18px;
+  }
+  .inform {
+    order: 1;
+    width: 95vw;
+    max-width: 350px;
+    margin: 0 auto 18px auto;
+    text-align: center;
+  }
+  .placecontaner {
+    order: 2;
+    width: 95vw;
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .placecontaner form {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .placecontaner input,
+  .placecontaner textarea {
+    width: 300px;
+    text-align: left;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .placecontaner button {
+    width: 120px;
+    max-width: 100%;
+    font-size: 14px;
+    padding: 7px 0;
+    border-radius: 6px;
+    margin-top: 8px;
+  margin-left: 85px;
+  }
+}
+
+
+/***********footer********/
+
+
+@media (max-width: 768px){
+  .fotter{
+    height: 100px;
+    background: 30vh;
+    background-color: #5a5c66;
+    text-align: center;
+    display: block;
+
+    gap: 10px;
+  }
+
+  .fottterbtn button{
+    margin: 15px 0;
+  }
+}
