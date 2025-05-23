@@ -546,14 +546,17 @@ ul li a:hover {
   height: 35px;
   width: 78%;
   color: white;
-
   text-align: center;
   font-size: 24px;
   flex-wrap: wrap;
 }
 
+.probtn button a{
+  color: white;
+}
+
 .probtn button {
-  outline: none;
+ outline: none;
   border: none;
   height: 30px;
   width: 150px;
@@ -564,7 +567,7 @@ ul li a:hover {
 }
 
 .probtn button:hover {
-  background: linear-gradient(rgb(0, 0, 0), blue, rgb(197, 172, 172));
+  background: linear-gradient(#372abe, #f4382b);
   color: white;
   box-shadow: 0 0 10px rgb(41, 41, 194);
   transform: scale(1.05);
